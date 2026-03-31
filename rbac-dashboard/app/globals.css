@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+/* HOME PAGE */
+.home-container {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  margin-bottom: 50px;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ff6b00;
+}
+
+.hero-subtitle {
+  margin-top: 10px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* 👈 spacing between buttons */
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* CARD */
+.feature-card {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* BUTTON (reuse previous) */
+.btn {
+  padding: 12px 22px;
+  background: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #e65c00;
+}
+
+.outline {
+  background: transparent;
+  border: 2px solid #ff6b00;
+  color: #ff6b00;
+}
+
+/* Layout */
+.container {
+  padding: 40px;
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff6b00;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+/* Greeting */
+.greeting {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 18px;
+  background: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e65c00;
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th {
+  background: #fff3e6;
+  padding: 12px;
+  text-align: left;
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.table tr:hover {
+  background: #fffaf5;
+}
+
+/* AUTH PAGES */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9fafb;
+}
+
+/* CARD */
+.auth-card {
+  width: 350px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* TITLE */
+.auth-title {
+  text-align: center;
+  color: #ff6b00;
+  margin-bottom: 20px;
+}
+
+/* INPUT GROUP */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-group input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* BUTTON */
+.btn.full {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* SWITCH TEXT */
+.switch-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch-text span {
+  color: #ff6b00;
+  cursor: pointer;
+  font-weight: 500;
+}
