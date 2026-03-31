@@ -17,8 +17,8 @@ It implements **authentication, role-based access control (RBAC), and CRUD opera
 
 The system supports three roles:
 
-* 👑 **Super Admin**
-* 🧑‍💼 **Admin**
+* **Super Admin**
+*  **Admin**
 * 👤 **User**
 
 Each role has specific permissions and access restrictions.
@@ -160,7 +160,7 @@ The application is deployed using **Vercel**.
 
 ---
 
-## 🧠 Approach
+##  Approach
 
 * Used **Next.js App Router** to handle both frontend and backend in a single project
 * Implemented **JWT authentication** for secure access
@@ -171,7 +171,7 @@ The application is deployed using **Vercel**.
 
 ---
 
-## 🔥 Future Improvements
+##  Future Improvements
 
 * Middleware-based route protection
 * Pagination & search in tables
@@ -181,7 +181,7 @@ The application is deployed using **Vercel**.
 
 ---
 
-## 🙌 Conclusion
+##  Conclusion
 
 This project demonstrates:
 
